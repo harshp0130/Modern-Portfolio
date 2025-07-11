@@ -1,6 +1,6 @@
 {
   "name": "Harsh-Portfolio",
-  "homepage": "https://harshp0130.github.io/Modern-Portfolio",
+  "homepage": "https://harshtech.me",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,8 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "framer-motion": "^12.23.0",

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Calendar, MapPin, Coffee, Code, Briefcase, Award, Users, TrendingUp, Star, Zap, Heart,  Sparkles, Globe, Target } from 'lucide-react';
 
+
 const About: React.FC = () => {
   const [hoveredExperience, setHoveredExperience] = useState<number | null>(null);
   const [hoveredValue, setHoveredValue] = useState<number | null>(null);

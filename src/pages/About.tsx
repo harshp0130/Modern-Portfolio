@@ -200,7 +200,7 @@ Currently, I’m looking forward to contributing to real-world projects, collabo
             >
               <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl">
                 <img
-                  src="/src/assets/harsh.jpg"
+                  src="/assets/harsh.jpg"
                   alt="Harsh Patel"
                   className="w-full h-96 object-cover"
                 />

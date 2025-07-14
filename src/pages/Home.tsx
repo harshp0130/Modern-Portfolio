@@ -38,10 +38,10 @@ const Home: React.FC = () => {
   ];
 
   const achievements = [
-    { number: '6+', label: 'Years Experience', icon: Star },
-    { number: '100M+', label: 'Users Impacted', icon: Globe },
-    { number: '2.5k+', label: 'GitHub Stars', icon: TrendingUp },
-    { number: '500+', label: 'Companies Using', icon: Sparkles },
+    { number: '5+', label: 'Projects', icon: Star },
+    { number: 'Fresher', label: 'Actively growing developer', icon: Globe },
+    { number: '10+', label: 'GitHub Repos', icon: TrendingUp },
+    { number: '8+', label: 'Collaborated with peers', icon: Sparkles },
   ];
 
   return (

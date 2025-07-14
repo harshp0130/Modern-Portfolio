@@ -7,6 +7,7 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Skills from './pages/Skills';
+import Achievements from './pages/Achievements';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="/projects" element={<Layout><Projects /></Layout>} />
             <Route path="/contact" element={<Layout><Contact /></Layout>} />
             <Route path="/skills" element={<Layout><Skills /></Layout>} />
+            <Route path="/achievements" element={<Layout><Achievements /></Layout>} />
           </Routes>
         </AnimatePresence>
       </div>

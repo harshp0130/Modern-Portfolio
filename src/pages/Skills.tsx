@@ -12,56 +12,56 @@ const Skills: React.FC = () => {
       gradient: 'from-blue-500 via-purple-500 to-indigo-600',
       glow: 'shadow-blue-500/25',
       skills: [
-        { name: 'React', level: 95, years: '6+' },
-        { name: 'TypeScript', level: 95, years: '5+' },
-        { name: 'Next.js', level: 90, years: '4+' },
-        { name: 'React Query', level: 90, years: '3+' },
-        { name: 'Tailwind CSS', level: 85, years: '3+' },
-        { name: 'Styled Components', level: 85, years: '4+' },
+        { name: 'React', level: 80, years: 'Intermediate' },
+        { name: 'TypeScript', level: 40, years: 'Beginner' },
+        { name: 'Next.js', level: 75, years: 'Intermediate' },
+        { name: 'React Query', level: 40, years: 'Exploring' },
+        { name: 'Tailwind CSS', level: 85, years: 'Intermediate' },
+        { name: 'Styled Components', level: 50, years: 'Beginner' },
       ],
     },
-    {
-      title: 'Performance & Tooling',
-      icon: Zap,
-      gradient: 'from-green-500 via-emerald-500 to-teal-600',
-      glow: 'shadow-green-500/25',
-      skills: [
-        { name: 'Webpack', level: 90, years: '5+' },
-        { name: 'Vite', level: 85, years: '2+' },
-        { name: 'Core Web Vitals', level: 95, years: '4+' },
-        { name: 'Bundle Analysis', level: 90, years: '4+' },
-        { name: 'GraphQL', level: 85, years: '3+' },
-        { name: 'Micro-frontends', level: 80, years: '2+' },
-      ],
-    },
-    {
-      title: 'Testing & DevOps',
-      icon: Database,
-      gradient: 'from-orange-500 via-red-500 to-pink-600',
-      glow: 'shadow-orange-500/25',
-      skills: [
-        { name: 'Jest', level: 90, years: '5+' },
-        { name: 'React Testing Library', level: 95, years: '4+' },
-        { name: 'Cypress', level: 85, years: '3+' },
-        { name: 'Storybook', level: 90, years: '4+' },
-        { name: 'GitHub Actions', level: 85, years: '3+' },
-        { name: 'Docker', level: 75, years: '2+' },
-      ],
-    },
-    {
-      title: 'Data Visualization',
-      icon: Palette,
-      gradient: 'from-purple-500 via-pink-500 to-rose-600',
-      glow: 'shadow-purple-500/25',
-      skills: [
-        { name: 'D3.js', level: 85, years: '4+' },
-        { name: 'Recharts', level: 90, years: '3+' },
-        { name: 'Canvas API', level: 80, years: '3+' },
-        { name: 'WebGL', level: 75, years: '2+' },
-        { name: 'Observable', level: 80, years: '2+' },
-        { name: 'Figma', level: 85, years: '5+' },
-      ],
-    },
+    // {
+    //   title: 'Performance & Tooling',
+    //   icon: Zap,
+    //   gradient: 'from-green-500 via-emerald-500 to-teal-600',
+    //   glow: 'shadow-green-500/25',
+    //   skills: [
+    //     { name: 'Webpack', level: 90, years: '5+' },
+    //     { name: 'Vite', level: 85, years: '2+' },
+    //     { name: 'Core Web Vitals', level: 95, years: '4+' },
+    //     { name: 'Bundle Analysis', level: 90, years: '4+' },
+    //     { name: 'GraphQL', level: 85, years: '3+' },
+    //     { name: 'Micro-frontends', level: 80, years: '2+' },
+    //   ],
+    // },
+    // {
+    //   title: 'Testing & DevOps',
+    //   icon: Database,
+    //   gradient: 'from-orange-500 via-red-500 to-pink-600',
+    //   glow: 'shadow-orange-500/25',
+    //   skills: [
+    //     { name: 'Jest', level: 90, years: '5+' },
+    //     { name: 'React Testing Library', level: 95, years: '4+' },
+    //     { name: 'Cypress', level: 85, years: '3+' },
+    //     { name: 'Storybook', level: 90, years: '4+' },
+    //     { name: 'GitHub Actions', level: 85, years: '3+' },
+    //     { name: 'Docker', level: 75, years: '2+' },
+    //   ],
+    // },
+    // {
+    //   title: 'Data Visualization',
+    //   icon: Palette,
+    //   gradient: 'from-purple-500 via-pink-500 to-rose-600',
+    //   glow: 'shadow-purple-500/25',
+    //   skills: [
+    //     { name: 'D3.js', level: 85, years: '4+' },
+    //     { name: 'Recharts', level: 90, years: '3+' },
+    //     { name: 'Canvas API', level: 80, years: '3+' },
+    //     { name: 'WebGL', level: 75, years: '2+' },
+    //     { name: 'Observable', level: 80, years: '2+' },
+    //     { name: 'Figma', level: 85, years: '5+' },
+    //   ],
+    // },
   ];
 
   const tools = [
@@ -69,50 +69,54 @@ const Skills: React.FC = () => {
     { name: 'Git & GitHub', category: 'Version Control', icon: '🔧' },
     { name: 'Figma', category: 'Design', icon: '🎨' },
     { name: 'Postman', category: 'API Testing', icon: '📡' },
-    { name: 'Slack', category: 'Communication', icon: '💬' },
-    { name: 'Jira', category: 'Project Management', icon: '📋' },
+    // { name: 'Slack', category: 'Communication', icon: '💬' },
+    // { name: 'Jira', category: 'Project Management', icon: '📋' },
     { name: 'Webpack', category: 'Build Tools', icon: '⚡' },
     { name: 'Vite', category: 'Build Tools', icon: '🚀' },
-    { name: 'Jest', category: 'Testing', icon: '🧪' },
-    { name: 'Cypress', category: 'E2E Testing', icon: '🔍' },
+    // { name: 'Jest', category: 'Testing', icon: '🧪' },
+    // { name: 'Cypress', category: 'E2E Testing', icon: '🔍' },
     { name: 'ESLint', category: 'Code Quality', icon: '✨' },
     { name: 'Prettier', category: 'Code Formatting', icon: '💅' },
+    { name: 'ExpressJS', category: 'Backend', icon: '👨‍💻' },
   ];
 
   const achievements = [
-    { 
-      number: '100M+', 
-      label: 'Users Impacted', 
-      icon: Globe,
-      description: 'Applications serving millions globally',
-      gradient: 'from-blue-500 to-cyan-500'
-    },
-    { 
-      number: '60%', 
-      label: 'Performance Gains', 
-      icon: TrendingUp,
-      description: 'Average improvement in Core Web Vitals',
-      gradient: 'from-green-500 to-emerald-500'
-    },
-    { 
-      number: '8', 
-      label: 'Engineers Mentored', 
-      icon: Award,
-      description: 'Junior to senior developer growth',
-      gradient: 'from-purple-500 to-pink-500'
-    },
-    { 
-      number: '2.5k+', 
-      label: 'GitHub Stars', 
-      icon: Star,
-      description: 'Open source contributions',
-      gradient: 'from-orange-500 to-red-500'
-    },
+    // { 
+    //   number: '100M+', 
+    //   label: 'Users Impacted', 
+    //   icon: Globe,
+    //   description: 'Applications serving millions globally',
+    //   gradient: 'from-blue-500 to-cyan-500'
+    // },
+    // { 
+    //   number: '60%', 
+    //   label: 'Performance Gains', 
+    //   icon: TrendingUp,
+    //   description: 'Average improvement in Core Web Vitals',
+    //   gradient: 'from-green-500 to-emerald-500'
+    // },
+    // { 
+    //   number: '8', 
+    //   label: 'Engineers Mentored', 
+    //   icon: Award,
+    //   description: 'Junior to senior developer growth',
+    //   gradient: 'from-purple-500 to-pink-500'
+    // },
+    // { 
+    //   number: '2.5k+', 
+    //   label: 'GitHub Stars', 
+    //   icon: Star,
+    //   description: 'Open source contributions',
+    //   gradient: 'from-orange-500 to-red-500'
+    // },
   ];
 
   const handleResumeDownload = () => {
-    console.log('Resume download initiated');
-  };
+   const link = document.createElement("a");
+  link.href = "/assets/Web Dev.pdf"; // path from public folder
+  link.download = "/assets/Web Dev.pdf"; // file name on download
+  link.click();
+};
 
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900">

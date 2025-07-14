@@ -1,0 +1,20 @@
+{
+  "name": "Harsh Patel - Full Stack Developer",
+  "short_name": "Harsh Patel",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "/favicon-96x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/favicon.ico",
+      "type": "image/x-icon",
+      "sizes": "48x48 72x72 96x96 144x144"
+    }
+  ]
+}

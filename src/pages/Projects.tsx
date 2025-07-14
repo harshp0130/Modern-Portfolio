@@ -95,15 +95,15 @@ const Projects: React.FC = () => {
             <div className="flex justify-center space-x-8 text-sm text-gray-600 dark:text-gray-400">
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
-                <span>100M+ Users Impacted</span>
+                <span>Open to Internship/Freelance</span>
               </div>
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                <span>4.5k+ GitHub Stars</span>
+                <span>Fresher</span>
               </div>
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
-                <span>500+ Companies Using</span>
+                <span>Actively Growing</span>
               </div>
             </div>
           </motion.div>

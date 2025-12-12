@@ -5,14 +5,14 @@ import ProjectCard from '../components/ProjectCard';
 const Projects: React.FC = () => {
   const projects = [
     {
-      title: 'Comming Soon',
-      description: 'Coming Soon.',
-      image: 'Coming Soon',
-      technologies: ['React', 'TypeScript', 'GraphQL', 'Micro-frontends', 'Tailwind CSS', 'Jest'],
-      githubUrl: 'https://github.com/alexchen-dev/stripe-connect',
-      liveUrl: 'https://connect.stripe.com',
-      category: 'enterprise' as const,
-      impact: '45% faster',
+      title: 'GSAP Showcase',
+      description: '"GSAP Showcase" is an immersive frontend showcase designed to push the boundaries of web animation using the GreenSock Animation Platform (GSAP). Built with a high-octane gaming aesthetic, this project transforms a static layout into a dynamic, living experience through complex timeline sequencing and ScrollTrigger interactions. It demonstrates my ability to bridge creative design with technical performance, delivering a fluid, responsive narrative that engages users from the first frame to the final scroll..',
+      image: './assets/Gsap.png',
+      technologies: ['Scroll-Based Animations', '3D Hover Effect', 'Smooth UI/UX', 'Video Transistions'],
+      githubUrl: 'https://github.com/harshp0130/The-GSAP-Showcase',
+      liveUrl: 'https://the-gsap-showcase.vercel.app/',
+      category: 'personal' as const,
+      impact: '65% faster',
       stars: undefined,
     },
     // {

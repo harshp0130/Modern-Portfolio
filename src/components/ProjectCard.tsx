@@ -12,7 +12,7 @@ interface ProjectCardProps {
   index: number;
   impact?: string;
   stars?: string;
-  category: 'enterprise' | 'open-source' | 'personal';
+  category: string;
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
